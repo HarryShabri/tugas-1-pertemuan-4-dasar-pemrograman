@@ -26,10 +26,11 @@ if jam_kerja > 8:
 else:
     print("tidak ada uang lembur")
 total = gaji_jabatan + gaji_pendidikan + honor_lembur + gaji_pokok
-print("\nKaryawan yang bernama : ", nama)
+print("\nKaryawan yang bernama  : ", nama)
 print("Honor yang diterima ")
-print("Gaji pokok : Rp ", gaji_pokok)
-print("Tunjangan Jabatan : Rp ", gaji_jabatan)
-print("Tunjangan Pendidikan : Rp ", gaji_pendidikan)
-print("Honor Lembur : Rp ", honor_lembur)
+print("Gaji pokok               : Rp ", gaji_pokok)
+print("Tunjangan Jabatan        : Rp ", gaji_jabatan)
+print("Tunjangan Pendidikan     : Rp ", gaji_pendidikan)
+print("Honor Lembur             : Rp ", honor_lembur)
+print('------------------------------------------------+')
 print("Total gaji yang diterima : Rp ", total )
